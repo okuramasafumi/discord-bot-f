@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.2.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
-gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
+gem 'rails', '~> 6.1.7'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.5'
 # Use Puma as the app server
@@ -71,3 +71,5 @@ gem 'omniauth-discord'
 gem 'omniauth-rails_csrf_protection'
 gem 'rails-i18n', '~> 6.0.0'
 gem 'slim-rails'
+
+gem 'matrix'
